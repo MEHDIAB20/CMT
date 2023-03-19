@@ -6,7 +6,7 @@ export const commentsStore = writable(comments);
 
 let init = async (filterByProf) => {
   comments = await supabaseFunctions.getComments();
-  comments = comments.sort((c1, c2) => c2.created_at > c1.created_at);
+  comments = comments.sort((c1, c2) => new Date(c2.created_at) > new Date(c1.created_at));
   if (filterByProf) filterByProfName();
   else commentsStore.set(comments);
 };

@@ -45,7 +45,7 @@
   <div
     class="flex flex-col p-4 w-4/5 bg-gray-900 rounded-lg mx-auto mb-4 mt-4  items-center"
   >
-    <div class="flex mx-auto gap-2 w-full">
+    <div class="flex mx-auto gap-2 w-full h-40">
       <div class="bestC rounded-lg bg-gray-800 w-1/2 mx-auto p-2 text-center">
         <h4>Top 3 Cours</h4>
         <table class="table table-hover table-success">
@@ -113,7 +113,7 @@
       </div>
     </div>
 
-    <div class="flex mx-auto gap-2 w-full mt-2">
+    <div class="flex mx-auto gap-2 w-full mt-2 h-40">
       <div class="bestP rounded-lg bg-gray-800 w-1/2 mx-auto  p-2 text-center">
         <h4>Top 3 Profs</h4>
         <table class="table table-hover table-success  w-full">
